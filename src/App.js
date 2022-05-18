@@ -20,7 +20,7 @@ function App() {
 
     setfilterdata(filterdata.sort((a,b)=>(a.Value) - (b.Value)));
 
-  })
+  },[searchterm, userdata])
   
 
   return (
