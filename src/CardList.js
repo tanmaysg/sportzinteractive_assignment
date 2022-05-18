@@ -5,8 +5,8 @@ function CardList({Filtered_Data}){
     return(
         <div className="players">
             {
-                Filtered_Data.map((a)=>{
-                    return <Card a={a}/>
+                Filtered_Data.map((a,b)=>{
+                    return <Card a={a} b={b}/>
                 })
             }
         </div>
